@@ -16,12 +16,29 @@ You can find the deployed site [here](). <!--LINK TO BE ADDED-->
 
 
 
-## Summary
+## Table of Content
 
-[TOC]
+1. [UX](https://github.com/LuciusVH/goatflix#ux)
+   1. [Structure & Design](https://github.com/LuciusVH/goatflix#structure--design)
+   2. [User Stories](https://github.com/LuciusVH/goatflix#user-stories)
+2. [Features](https://github.com/LuciusVH/goatflix#features)
+   1. [Existing Features](https://github.com/LuciusVH/goatflix#existing-features)
+   2. [Features Left to Implement](https://github.com/LuciusVH/goatflix#features-left-to-implement)
+3. [Technologies Used](https://github.com/LuciusVH/goatflix#technologies-used)
+   1. [Web Technologies](https://github.com/LuciusVH/goatflix#web-technologies)
+   2. [Developer tools](https://github.com/LuciusVH/goatflix#web-technologies)
+4. [Testing](https://github.com/LuciusVH/goatflix#testing)
+5. [Deployment](https://github.com/LuciusVH/goatflix#deployment)
+6. [Credits](https://github.com/LuciusVH/goatflix#credits)
+   1. [Content](https://github.com/LuciusVH/goatflix#content)
+   2. [Media](https://github.com/LuciusVH/goatflix#media)
+   3. [Acknowledgements](https://github.com/LuciusVH/goatflix#acknowledgements)
+7. [DISCLAIMER](https://github.com/LuciusVH/goatflix#disclaimer)
+
+
+
 
 ------
-
 ------
 
 ## UX
