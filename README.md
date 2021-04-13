@@ -2,7 +2,7 @@
 
 
 
-![](https://github.com/LuciusVH/goatflix/blob/main/assets/img/logo-readme.png)
+![logo](https://github.com/LuciusVH/goatflix/blob/main/assets/img/logo-readme.png "Goatflix's logo")
 
 
 
