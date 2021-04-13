@@ -139,11 +139,9 @@ In addition, you may also use this section to discuss plans for additional featu
 
   - The project uses **Github** to manage and host the repository.
 - [Git](https://git-scm.com/) 
-
-  - The project uses **Git** for Version Control. 
+- The project uses **Git** for Version Control. 
 - [Visual Studio Code](https://code.visualstudio.com/)
-
-  - **VSCode** was the IDE used to build this project. 
+- **VSCode** was the IDE used to build this project. 
 - [Typora](https://typora.io/)
 
   - **Typora** was used to write this README.md file.
@@ -151,7 +149,7 @@ In addition, you may also use this section to discuss plans for additional featu
 
   - **Balsamiq** was used to create the wireframes. 
 - [TinyPNG](https://tinypng.com/)
-- **TinyPNG** was used to compress all pictures, in order to reduce the loading time and improve UX. 
+  - **TinyPNG** was used to compress all pictures, in order to reduce the loading time and improve UX. 
 - [Fontmeme](https://fontmeme.com/netflix-font/)
   - **FontMeme** was used to create the Goatflix logo, imitating the Netflix logo in color and shape. 
 
@@ -213,8 +211,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Acknowledgements
 
-- I was heavily inspired by [Netflix](https://www.netflix.com) landing page to design Goatflix.
-- The "goat videocall" concept comes from my best friend, living in France countryside in a small farm place. She owns some toy goats and had this idea of videocalls. She needed a website to develop an online presence & this matched with my MSP#1 requirements. 
+- I was heavily inspired by [Netflix](https://www.netflix.com)'s landing page to design Goatflix.
+- The "goat videocall" concept comes from my best friend, living in the French countryside in a small farm place. She owns some toy goats and had this idea of videocalls. She needed a website to develop an online presence & this matched with my MSP#1 requirements. Please read the disclaimer following. 
 
 
 
@@ -224,5 +222,5 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 This specific website is entirely designed for educational purpose only. 
 
-However, please note that a clone of the Github repository might be done in the next weeks, translated into French and commercially published, under a purchased domain name. 
+However, please note that a clone of the Github repository might be done in the next weeks, translated into French, modified and commercially published, under a purchased domain name. 
 
