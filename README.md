@@ -2,7 +2,7 @@
 
 
 
-![](C:\Users\luciu\OneDrive\Bureau\PROJETS\GOATFLIX\assets\img\logo-big.png)
+![](https://github.com/LuciusVH/goatflix/blob/main/assets/img/logo-readme.png)
 
 
 
@@ -16,17 +16,25 @@ You can find the deployed site [here](). <!--LINK TO BE ADDED-->
 
 
 
+## Summary
+
+[TOC]
+
+------
+
+------
+
 ## UX
 
-This website is for goats enthusiasts, more specifically Nigerian dwarf goats (which means basically everyone, as everyone loves these little jumping :goat: !). Goatflix provides the possibility to book a 5mn videocall with one of the owner's goat for 5� . It also displays, with a touch of humor, some facts about these animals and tips if you intend to adopt one yourself. 
+This website is for goats enthusiasts, more specifically Nigerian dwarf goats (which means basically everyone, as everyone loves these little jumping :goat: !). Goatflix provides the possibility to book a 5mn videocall with one of the owner's goat for 5¬ . It also displays, with a touch of humor, some facts about these animals and tips if you intend to adopt one yourself. 
 
-### Structure & Design
+### 	Structure & Design
 
 Goatflix is structured in a 2 pages website, each divided in several sections. The general theme is heavily inspired by the streaming website [Netflix](https://www.netflix.com) (and so is the name :wink:).
 
 On large screens (above 768px), the [index.html page](https://github.com/LuciusVH/goatflix/blob/main/assets/img/wireframes/index-lg.png) (clicking opens up the wireframe picture) is divided in 3 different sections:
 
-1. The callout section, displaying a large hero image in the background, the logo on the top left corner, a Call To Action (CTA) button on the top right corner opening up the contact modal form to book a videocall, a title & text paragraph followed by a button anchored to the next section (showing the user that there is more to see). 
+1. The callout section, displaying a large hero image in the background, the logo on the top left corner, a Call To Action (CTA) button on the top right corner opening up the contact modal form to book a videocall, a title & text paragraph followed by a button anchored to the next section (leading the user towards the rest of the webpage). 
 
 2. The "Stars" section, displaying 4 different Nigerian dwarf goats: each with a picture, name, text description of their character & fun facts and finally a CTA button, opening up the contact modal form in order to book a videocall.
 
@@ -57,7 +65,8 @@ On smaller screen, the [modal contact form](https://github.com/LuciusVH/goatflix
 The fonts are taken from [Google Fonts](https://fonts.google.com/):
 
 - The titles font is [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
-- Regular font is [Roboto](https://fonts.google.com/specimen/Roboto), chosen because identified as "popular pairing" with Bebas Neue. 
+- The regular font is [Roboto](https://fonts.google.com/specimen/Roboto), chosen because identified as "popular pairing" with Bebas Neue. 
+- [Helvetica](https://downloadhelvetica.com/) has been chosen as default font, if the others can't load for any reason, as it is reputed to be the perfect font and actually has a quite interesting [documentary](https://downloadhelvetica.com/helvetica-movie/) dedicated to it :movie_camera: ​! 
 
 The logo has been designed using [FontMeme](https://fontmeme.com/netflix-font/), because I don't know how to curve the font in order to replicate the Netflix's logo. After some research, I found that I could somehow do it using SVG but FontMeme provided me with a decent result with less effort, though I will definitely have a look at SVG later on, it seems quite interesting when paired with CSS. 
 
@@ -125,10 +134,11 @@ In addition, you may also use this section to discuss plans for additional featu
 
   - **Balsamiq** was used to create the wireframes. 
 - [TinyPNG](https://tinypng.com/)
-
-  - **TinyPNG** was used to compress all pictures, in order to reduce the loading time and improve UX. 
+- **TinyPNG** was used to compress all pictures, in order to reduce the loading time and improve UX. 
 - [Fontmeme](https://fontmeme.com/netflix-font/)
   - **FontMeme** was used to create the Goatflix logo, imitating the Netflix logo in color and shape. 
+
+
 
 ## Testing
 
@@ -157,6 +167,8 @@ If this section grows too long, you may want to split it off into a separate fil
 
 
 ## Deployment
+
+You can find the deployed site [here](). <!--LINK TO BE ADDED-->
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
@@ -188,6 +200,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The "goat videocall" concept comes from my best friend, living in France countryside in a small farm place. She owns some toy goats and had this idea of videocalls. She needed a website to develop an online presence & this matched with my MSP#1 requirements. 
 
 
+
+------
 
 ## DISCLAIMER
 
