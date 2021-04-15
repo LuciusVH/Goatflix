@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,300..400;1,300..400&display=swap');
+
 /* _____ CONTAINERS _____ */
 
 .callout-container {
@@ -7,4 +9,30 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.callout-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+
+/* _____ TEXT _____ */
+
+body {
+    font-family: Roboto, Helvetica;
+}
+
+.callout-container h1 {
+    font-family: "Bebas Neue", Helvetica;
+    color: white;
+    font-size: 60px;
+    letter-spacing: 1.5px;
+    line-height: 90%;
+}
+
+.header-title-emphasized {
+    font-style: italic;
 }
