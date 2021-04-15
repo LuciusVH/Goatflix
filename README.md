@@ -128,10 +128,11 @@ In addition, you may also use this section to discuss plans for additional featu
 - [HTML](https://en.wikipedia.org/wiki/HTML)
 
     - Basic language to structure the pages.
-
 - [CSS](https://en.wikipedia.org/wiki/CSS) 
 
     - Used to style the website.
+- [Bootstrap 5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+    - Used for responsive grid structure.
 
 ### Developer tools
 
@@ -207,7 +208,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Media
 
-- The photos used in this site were obtained from ...
+- The hero picture is from [Unsplash](https://unsplash.com/photos/9mxoVvVQsEU).
 
 ### Acknowledgements
 
