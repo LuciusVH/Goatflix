@@ -19,6 +19,23 @@
 }
 
 
+/* _____ HEADER _____ */
+
+header {
+    display: flex;
+    align-items: center;
+    height: 110px;
+}
+
+header img {
+    padding-left: 20px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+
 /* _____ TEXT _____ */
 
 body {
