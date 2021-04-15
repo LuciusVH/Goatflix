@@ -1,0 +1,10 @@
+/* _____ CONTAINERS _____ */
+
+.callout-container {
+    height: 100vh;
+    background: url("../img/hero-img.jpg") no-repeat bottom left fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
