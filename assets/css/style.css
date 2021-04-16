@@ -14,21 +14,19 @@
     border-bottom: 8px solid #222;
 }
 
-.callout-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 500px;
-    margin: 0;
-    padding: 0;
-}
-
 .header-wrapper {
     padding: 0 40px;
     margin: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.callout-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 15vh;
+    padding-bottom: 5vh;
 }
 
 
@@ -50,16 +48,22 @@ header {
     text-decoration: none;
 }
 
+.button-cta:hover {
+    font-size: 18px;
+    color: #fff;
+    background-color: #f40612;
+}
+
 
 /* _____ TEXT _____ */
 
 body {
     font-family: Roboto, Helvetica;
+    color: #fff;
 }
 
 .callout-container h1 {
     font-family: "Bebas Neue", Helvetica;
-    color: white;
     font-size: 60px;
     letter-spacing: 1.5px;
     line-height: 90%;
