@@ -3,7 +3,7 @@
     
     .callout-container {
         height: 100vh;
-        background: url("../img/hero-img.jpg") no-repeat center center fixed;
+        background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/hero-img.jpg") no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -47,6 +47,15 @@
         background-color: #e50914;
         color: #fff;
         text-decoration: none;
+    }
+    /* _____ NAVBAR _____ */
+    
+    .navbar-brand img {
+        width: 50%;
+    }
+    
+    .navbar-collapse {
+        flex-grow: initial;
     }
     
     .button-cta:hover {
@@ -92,4 +101,8 @@
         .button-cta {
             padding: 6px 15px;
         }
+    }
+    
+    #our-stars {
+        height: 200vh;
     }
