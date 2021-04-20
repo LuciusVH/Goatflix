@@ -101,6 +101,10 @@ header {
     color: #e50914;
 }
 
+.navbar-brand {
+    padding: 0;
+}
+
 .dropdown-menu {
     background-color: rgba(0, 0, 0, 0.75);
     border: 0;

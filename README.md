@@ -10,7 +10,7 @@ Hi there and welcome!
 
 This is a website created as my first Milestone Project for the Full Stack Developer Course of Code Institute, after completing the three first modules : HTML, CSS & User Centric Front End Development. 
 
-You can find the deployed site [here](). <!--LINK TO BE ADDED-->
+You can find the deployed site [here](https://luciusvh.github.io/goatflix/).
 
 > **NOTE:** The links included in this README will not automatically open in a new tab. Press CTRL+ click on the link to open the target in a new tab.
 
@@ -43,7 +43,7 @@ You can find the deployed site [here](). <!--LINK TO BE ADDED-->
 
 ## UX
 
-This website is for goats enthusiasts, more specifically Nigerian dwarf goats (which means basically everyone, as everyone loves these little jumping :goat: !). Goatflix provides the possibility to book a 5mn videocall with one of the owner's goat for 5¬ . It also displays, with a touch of humor, some facts about these animals and tips if you intend to adopt one yourself. 
+This website is for goats enthusiasts, more specifically Nigerian dwarf goats (which means basically everyone, as everyone loves these little jumping :goat: !). Goatflix provides the possibility to book a 5mn videocall with one of the owner's goat for 5 EUR. It also displays, with a touch of humor, some facts about these animals and tips if you intend to adopt some yourself. 
 
 ### 	Structure & Design
 
@@ -106,17 +106,18 @@ The logo has been designed using [FontMeme](https://fontmeme.com/netflix-font/),
 ### Existing Features
 
 - <u>Landing area</u> - this section is a call to action (CTA), helping the customer to get quickly booking his videocall through the contact form, with the CTA link on the top right corner, or the potential customer to get more info on the goats with the CTA button "Meet our stars" under the title. 
-
 - <u>Navbar</u> - allows the user to easily navigate to any section of the website. It's been made sticky, so the navbar stays on the top of the screen, once the uses has reached the "stars" section, and straight on the top of the wikigoat.html page (no landing/CTA section on this page). 
+- <u>Stars section</u> - helps the user to familiarize himself/herself with some of the goats available for videocall. Each goat's card also displays a CTA link inviting the customer to book his videocall through the contact form.
 
 ### Features Left to Implement
 
-- <u>Stars section</u> - helps the user to familiarize himself/herself with some of the goats available for videocall. Each goat's card also displays a CTA link inviting the customer to book his videocall through the contact form.
 - <u>Customer reviews section</u> - allows the potential customer to get a feedback from previous customers and helps the decision process (as if seeing these cute goats wasn't sufficient enough!!)
 - <u>Footer</u> - informs and leads the user towards the breeding farm's social media accounts, and displays the copyright mention. 
 - <u>General info section</u> - allows the user to get info about these animals, and pro tips if he/she is planning to get a goat himself/herself (or actually a couple of goats, at least, as it's explained in the section :wink:). 
 - <u>Famous goats section</u> - allows the user to learn more about some of the most eminent members of the goat community, whether they are real or fictional. 
 - <u>"Go to the top" button</u> - allows the user to get to the top of the webpage instantly, without having to scroll his/her way back up.
+- <u>Image modal</u> - allows the user to visualize the picture in bigger size. To be taken from [here](https://www.w3schools.com/css/css3_images.asp).
+- <u>Favicon</u> - allows the user to find more easily the Goatflix tab in his/her browser & improve SEO.
 
 
 
@@ -125,13 +126,13 @@ The logo has been designed using [FontMeme](https://fontmeme.com/netflix-font/),
 ### Web technologies
 
 - [HTML](https://en.wikipedia.org/wiki/HTML)
-
-    - Basic language to structure the pages.
+- Basic language to structure the pages.
 - [CSS](https://en.wikipedia.org/wiki/CSS) 
-
-    - Used to style the website.
+- Used to style the website.
 - [Bootstrap 5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
-    - Used for responsive grid structure.
+    - Used for responsive grid structure & navbar. 
+- [JavaScript](https://www.javascript.com/)
+    - Used for the modal effect when clicking on picture (code snippet taken from [W3Schools](https://www.w3schools.com/css/css3_images.asp)).
 
 ### Developer tools
 
@@ -139,12 +140,11 @@ The logo has been designed using [FontMeme](https://fontmeme.com/netflix-font/),
 
   - The project uses **Github** to manage and host the repository.
 - [Git](https://git-scm.com/) 
-- The project uses **Git** for Version Control. 
+  - The project uses **Git** for Version Control. 
 - [Visual Studio Code](https://code.visualstudio.com/)
-- **VSCode** was the IDE used to build this project. 
+  - **VSCode** was the IDE used to build this project. 
 - [Typora](https://typora.io/)
-
-  - **Typora** was used to write this README.md file.
+- **Typora** was used to write this README.md file.
 - [Balsamiq](https://balsamiq.com/)
 
   - **Balsamiq** was used to create the wireframes. 
@@ -183,7 +183,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-You can find the deployed site [here](). <!--LINK TO BE ADDED-->
+You can find the deployed site [here](https://luciusvh.github.io/goatflix/). 
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
@@ -207,14 +207,12 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Media
 
-- The hero picture is from [Unsplash](https://unsplash.com/photos/9mxoVvVQsEU).
+- The hero picture is taken from [Unsplash](https://unsplash.com/photos/9mxoVvVQsEU).
 
 ### Acknowledgements
 
 - I was heavily inspired by [Netflix](https://www.netflix.com)'s landing page to design Goatflix.
 - The "goat videocall" concept comes from my best friend, living in the French countryside in a small farm place. She owns some toy goats and had this idea of videocalls, to generate more incomes during this pandemic time. She needed a website to develop an online presence & this matched with my MSP#1 requirements. Please read the disclaimer following. 
-- The navbar is based on Bootstrap's example, then customized. 
-- The blurred effect on each goat picture 
 
 
 
@@ -224,5 +222,5 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 This specific website is entirely designed for educational purpose only. 
 
-However, please note that a clone of the Github repository might be done in the next weeks, translated into French, modified and commercially published, under a purchased domain name. 
+However, please note that a clone of the Github repository might be done in the next weeks, translated into French, modified and commercially published, under a purchased domain name.  
 
