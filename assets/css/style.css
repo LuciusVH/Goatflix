@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,300..400;1,300..400&display=swap');
 
-/* _____ CONTAINERS _____ */
+/* _____ GENERAL _____ */
 
 body {
     background-color: black;
+    font-family: Roboto, Helvetica;
+    color: #fff;
 }
+
+
+/* _____ CALL-OUT _____ */
 
 .callout-container {
     height: 100vh;
@@ -18,19 +23,18 @@ body {
     border-bottom: 8px solid #222;
 }
 
-.header-wrapper {
-    padding: 0 40px;
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .callout-wrapper {
     display: flex;
     justify-content: center;
     padding-top: 15vh;
     padding-bottom: 5vh;
+}
+
+.callout-container h1 {
+    font-family: "Bebas Neue", Helvetica;
+    font-size: 60px;
+    letter-spacing: 1.5px;
+    line-height: 90%;
 }
 
 .callout-cta br {
@@ -40,20 +44,35 @@ body {
 
 /* _____ HEADER _____ */
 
+.header-wrapper {
+    padding: 0 40px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 header {
     height: 110px;
     display: flex;
     align-items: center;
 }
 
+.header-title-emphasized {
+    font-style: italic;
+}
+
 .button-cta {
     padding: 7px 20px;
-    margin-right: 10px;
     border: none;
     border-radius: 4px;
     background-color: #e50914;
     color: #fff;
     text-decoration: none;
+}
+
+.header-wrapper button-cta {
+    margin-right: 10px;
 }
 
 .button-cta:hover {
@@ -70,7 +89,7 @@ header {
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .show>.nav-link {
     color: white;
-    font-family: 'Bebas Neue';
+    font-family: "Bebas Neue", Helvetica;
     letter-spacing: 1.2px;
 }
 
@@ -94,7 +113,7 @@ header {
 
 .dropdown-item {
     color: white;
-    font-family: 'Bebas Neue';
+    font-family: "Bebas Neue", Helvetica;
     letter-spacing: 1.2px;
     padding-left: 10px;
 }
@@ -121,26 +140,62 @@ header {
 }
 
 
-/* _____ TEXT _____ */
+/* _____ OUR STARS SECTION _____ */
 
-body {
-    font-family: Roboto, Helvetica;
-    color: #fff;
+.our-stars-container {
+    padding-top: 1rem;
 }
 
-.callout-container h1 {
+.goat-card {
+    padding: 0 1.5rem;
+}
+
+.goat-card img {
+    width: 300px;
+    visibility: hidden;
+}
+
+.galak-picture {
+    background-image: url('../img/galak.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    box-shadow: 0 0 10px 10px black inset;
+    padding: 0;
+}
+
+.goat-name {
     font-family: "Bebas Neue", Helvetica;
-    font-size: 60px;
+    font-size: 50px;
     letter-spacing: 1.5px;
-    line-height: 90%;
 }
 
-.header-title-emphasized {
-    font-style: italic;
+.goat-cta {
+    margin-top: 2rem;
 }
 
-.navbar-link {
-    color: #fff;
+.card-left-name {
+    padding-left: 5rem;
+}
+
+.card-left-cta {
+    padding-left: 2.5rem;
+}
+
+.card-right-name {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5rem;
+}
+
+.card-right-description {
+    text-align: right;
+}
+
+.card-right-cta {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2.5rem;
 }
 
 
@@ -165,8 +220,4 @@ body {
     .button-cta {
         padding: 6px 15px;
     }
-}
-
-#our-stars {
-    height: 200vh;
 }
