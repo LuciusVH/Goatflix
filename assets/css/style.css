@@ -84,6 +84,10 @@ header {
 
 /* _____ NAVBAR _____ */
 
+.navbar {
+    background-color: rgba(0, 0, 0, 0.75)
+}
+
 .navbar-dark .navbar-nav .nav-link,
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:focus,
@@ -144,6 +148,8 @@ header {
 
 .our-stars-container {
     padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 8px solid #222;
 }
 
 .goat-card {
