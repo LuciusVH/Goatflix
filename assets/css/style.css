@@ -36,7 +36,7 @@ p {
 
 .callout-container h1 {
     font-family: "Bebas Neue", Helvetica;
-    font-size: 60px;
+    font-size: 4em;
     letter-spacing: 1.5px;
     line-height: 90%;
 }
@@ -259,23 +259,88 @@ footer ul {
 
 /* _____ MEDIA QUERIES _____ */
 
-@media(max-width: 450px) {
-    header img {
-        width: 50%;
-    }
+@media (max-width: 575px) {
     .header-wrapper {
-        padding: 0 10px;
+        padding: 0 20px;
+    }
+    .header-wrapper img {
+        height: 75%;
+    }
+    .callout-wrapper h1 {
+        font-size: 50px;
+    }
+    .button-cta {
+        padding: 5px 10px;
     }
     .callout-cta br {
         display: inline;
     }
 }
 
-@media(max-width: 380px) {
-    .callout-container h1 {
+@media (max-height: 450px) {
+    header {
+        height: 60px;
+    }
+    .header-wrapper {
+        padding: 0 20px;
+    }
+    .header-wrapper img {
+        height: 75%;
+    }
+    .callout-wrapper {
+        padding-top: 7vh;
+        padding-bottom: 2.5vh;
+    }
+    .callout-wrapper h1 {
         font-size: 50px;
     }
     .button-cta {
-        padding: 6px 15px;
+        padding: 5px 10px;
+    }
+    .callout-cta br {
+        display: none;
+    }
+}
+
+@media (max-width: 320px) {
+    header {
+        height: 60px;
+    }
+    .header-wrapper {
+        padding: 0 20px;
+    }
+    .header-wrapper img {
+        height: 50%;
+    }
+    .button-cta {
+        padding: 5px 10px;
+    }
+}
+
+@media (max-height: 300px) {
+    body {
+        font-size: smaller;
+    }
+    header {
+        height: 60px;
+    }
+    .header-wrapper {
+        padding: 0 20px;
+    }
+    .header-wrapper img {
+        height: 75%;
+    }
+    .callout-wrapper {
+        padding-top: 7vh;
+        padding-bottom: 2.5vh;
+    }
+    .callout-wrapper h1 {
+        font-size: 40px;
+    }
+    .button-cta {
+        padding: 5px 10px;
+    }
+    .callout-cta br {
+        display: none;
     }
 }
