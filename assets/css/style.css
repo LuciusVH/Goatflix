@@ -8,6 +8,10 @@ body {
     color: #fff;
 }
 
+p {
+    margin: 0;
+}
+
 
 /* _____ CALL-OUT _____ */
 
@@ -206,6 +210,46 @@ header {
     display: flex;
     justify-content: flex-end;
     padding-right: 2.5rem;
+}
+
+
+/* _____ FOOTER _____ */
+
+footer {
+    padding: 10px 0;
+}
+
+footer ul {
+    margin: 0;
+}
+
+.social,
+.copyright {
+    text-align: center;
+}
+
+.social li a i {
+    width: 25px;
+    height: 25px;
+    padding: 11px 0;
+    border-radius: 50%;
+    font-size: 16px;
+    line-height: 5px;
+    color: #e50914;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social li a i:hover {
+    background-color: #f40612;
+    color: black;
+}
+
+.copyright {
+    padding-top: 0.2rem;
+    font-size: 10px;
 }
 
 
