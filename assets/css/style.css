@@ -151,6 +151,10 @@ header {
     display: block;
 }
 
+.navbar-toggler {
+    border: 0;
+}
+
 .navbar-toggler:focus {
     box-shadow: 0 0 0 0;
 }
@@ -177,12 +181,12 @@ header {
     background-image: url('../img/galak.png');
     background-size: contain;
     background-repeat: no-repeat;
-    height: 400px;
+    height: auto;
     box-shadow: 0 0 10px 10px black inset;
     padding: 0;
 }
 
-.goat-name {
+.goat-name h3 {
     font-family: "Bebas Neue", Helvetica;
     font-size: 50px;
     letter-spacing: 1.5px;
@@ -275,6 +279,9 @@ footer ul {
     .callout-cta br {
         display: inline;
     }
+    .dropdown-menu {
+        background-color: transparent;
+    }
 }
 
 @media (max-height: 450px) {
@@ -299,6 +306,9 @@ footer ul {
     }
     .callout-cta br {
         display: none;
+    }
+    .dropdown-menu {
+        background-color: transparent;
     }
 }
 
