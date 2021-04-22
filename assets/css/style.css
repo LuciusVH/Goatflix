@@ -14,7 +14,7 @@ p {
 
 .title {
     font-family: "Bebas Neue", Helvetica;
-    font-size: 4em;
+    font-size: 4rem;
 }
 
 
@@ -234,7 +234,7 @@ header {
 }
 
 .customer-picture {
-    height: 150px;
+    height: 10em;
 }
 
 .blockquote {
@@ -287,6 +287,15 @@ footer ul {
 
 
 /* _____ MEDIA QUERIES _____ */
+
+@media (max-width: 768px) {
+    .customer-card {
+        margin-bottom: 2vh;
+    }
+    .customer-picture {
+        height: 8em;
+    }
+}
 
 @media (max-width: 575px) {
     .header-wrapper {
