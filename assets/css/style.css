@@ -295,6 +295,7 @@ footer ul {
 .social li a i:hover {
     background-color: #f40612;
     color: black;
+    transform: rotateY(360deg);
 }
 
 .copyright {
