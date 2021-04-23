@@ -78,6 +78,10 @@ header {
     background-color: #e50914;
     color: #fff;
     text-decoration: none;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .callout-button-cta {
@@ -89,9 +93,8 @@ header {
 }
 
 .button-cta:hover {
-    font-size: 18px;
     color: #fff;
-    background-color: #f40612;
+    background-color: #ff0000;
 }
 
 

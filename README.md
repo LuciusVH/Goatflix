@@ -126,9 +126,9 @@ The logo has been designed using [FontMeme](https://fontmeme.com/netflix-font/),
 ### Web technologies
 
 - [HTML](https://en.wikipedia.org/wiki/HTML)
-- Basic language to structure the pages.
+    - Basic language to structure the pages.
 - [CSS](https://en.wikipedia.org/wiki/CSS) 
-- Used to style the website.
+    - Used to style the website.
 - [Bootstrap 5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
     - Used for responsive grid structure & navbar. 
 - [JavaScript](https://www.javascript.com/)
@@ -144,7 +144,7 @@ The logo has been designed using [FontMeme](https://fontmeme.com/netflix-font/),
 - [Visual Studio Code](https://code.visualstudio.com/)
   - **VSCode** was the IDE used to build this project. 
 - [Typora](https://typora.io/)
-- **Typora** was used to write this README.md file.
+  - **Typora** was used to write this README.md file.
 - [Balsamiq](https://balsamiq.com/)
 
   - **Balsamiq** was used to create the wireframes. 
@@ -213,6 +213,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 - I was heavily inspired by [Netflix](https://www.netflix.com)'s landing page to design Goatflix.
 - The "goat videocall" concept comes from my best friend, living in the French countryside in a small farm place. She owns some toy goats and had this idea of videocalls, to generate more incomes during this pandemic time. She needed a website to develop an online presence & this matched with my MSP#1 requirements. Please read the disclaimer following. 
+- The footer social links structure & hover effect are taken from Code Institute's Resume Mini Project.
+- The polaroid design is from [Return-true](https://return-true.com/creating-a-polaroid-effect-with-css/).
 
 
 
