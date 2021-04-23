@@ -308,12 +308,12 @@ footer ul {
     .pola-right {
         order: 2;
     }
-}
-
-@media (max-width: 768px) {
     .customer-card {
         margin-bottom: 2vh;
     }
+}
+
+@media (max-width: 768px) {
     .customer-picture {
         height: 8em;
     }
