@@ -173,56 +173,69 @@ header {
     border-bottom: 8px solid #222;
 }
 
-.goat-card {
-    padding: 0 1.5rem;
-}
-
-.goat-card img {
-    width: 300px;
-    visibility: hidden;
-}
-
-.galak-picture {
-    background-image: url('../img/galak.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: auto;
-    box-shadow: 0 0 10px 10px black inset;
-    padding: 0;
-}
-
-.goat-name h3 {
-    font-family: "Bebas Neue", Helvetica;
-    font-size: 50px;
-    letter-spacing: 1.5px;
-}
-
 .goat-cta {
-    margin-top: 2rem;
+    margin-top: 0.5em;
 }
 
-.card-left-name {
-    padding-left: 5rem;
-}
-
-.card-left-cta {
-    padding-left: 2.5rem;
-}
-
-.card-right-name {
+.pola-container {
     display: flex;
-    justify-content: flex-end;
-    padding-right: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 1em;
 }
 
-.card-right-description {
-    text-align: right;
+.polaroid {
+    position: relative;
+    background: #fff;
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
 }
 
-.card-right-cta {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 2.5rem;
+.pola-left {
+    transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+}
+
+.pola-left+.goat-cta {
+    margin-left: 9em;
+}
+
+.pola-right {
+    transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+}
+
+.pola-right+.goat-cta {
+    margin-right: 9em;
+}
+
+.pola-picture img {
+    max-width: 100%;
+}
+
+.pola-title h3 {
+    font-family: "Bebas Neue", Helvetica;
+    color: black;
+    padding-top: 10px;
+    margin: 0;
+    font-size: 2em;
+}
+
+.goat-description {
+    padding: 1em;
+}
+
+.divider {
+    width: 65vw;
+    background-color: #e50914;
+    margin: 2vh auto;
+    opacity: 1;
 }
 
 
@@ -288,6 +301,15 @@ footer ul {
 
 /* _____ MEDIA QUERIES _____ */
 
+@media (max-width: 1024px) {
+    .pola-container {
+        flex-direction: row;
+    }
+    .pola-right {
+        order: 2;
+    }
+}
+
 @media (max-width: 768px) {
     .customer-card {
         margin-bottom: 2vh;
@@ -315,6 +337,9 @@ footer ul {
     }
     .dropdown-menu {
         background-color: transparent;
+    }
+    .no-display {
+        display: none;
     }
 }
 
@@ -347,6 +372,9 @@ footer ul {
 }
 
 @media (max-width: 320px) {
+    body p {
+        font-size: small;
+    }
     header {
         height: 60px;
     }
@@ -359,12 +387,12 @@ footer ul {
     .button-cta {
         padding: 5px 10px;
     }
+    .goat-cta {
+        margin-top: 0;
+    }
 }
 
 @media (max-height: 300px) {
-    body {
-        font-size: smaller;
-    }
     header {
         height: 60px;
     }
