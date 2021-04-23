@@ -171,8 +171,7 @@ header {
 /* _____ OUR STARS SECTION _____ */
 
 .our-stars-container {
-    padding-top: 1rem;
-    padding-bottom: 1.5rem;
+    padding: 2.5vh 0;
     border-bottom: 8px solid #222;
 }
 
@@ -245,7 +244,7 @@ header {
 /* _____ CUSTOMERS REVIEWS _____ */
 
 .customers-reviews {
-    padding-top: 2vh;
+    padding: 2.5vh 0;
     border-bottom: 8px solid #222;
 }
 
@@ -314,7 +313,7 @@ footer ul {
         order: 2;
     }
     .customer-card {
-        margin-bottom: 2vh;
+        padding: 0 1em;
     }
 }
 
