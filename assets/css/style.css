@@ -195,6 +195,12 @@ header {
     padding: 10px;
     margin: 10px;
     text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.polaroid:hover {
+    opacity: 0.8;
 }
 
 .pola-left {
