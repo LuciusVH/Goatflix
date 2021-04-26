@@ -321,7 +321,6 @@ footer ul {
 
 .text-404 {
     font-style: italic;
-    position: relative;
 }
 
 .img-404 {
@@ -330,6 +329,30 @@ footer ul {
     padding: 10px;
     border-radius: 25%;
     background-color: white;
+}
+
+.line1,
+.line2 {
+    position: relative;
+    display: inline-block;
+}
+
+.line1:before {
+    content: "«";
+    font-size: 5em;
+    color: #e50914;
+    position: absolute;
+    top: -0.8em;
+    left: -0.5em;
+}
+
+.line2:after {
+    content: "»";
+    font-size: 5em;
+    color: #e50914;
+    position: absolute;
+    bottom: -0.6em;
+    right: -0.5em;
 }
 
 
@@ -374,6 +397,10 @@ footer ul {
     }
     .no-display {
         display: none;
+    }
+    .img-404 {
+        width: 75vw;
+        padding: 5px;
     }
 }
 
@@ -424,9 +451,14 @@ footer ul {
     .goat-cta {
         margin-top: 0;
     }
-    .img-404 {
-        width: 75vw;
-        padding: 5px;
+    .text-404 {
+        font-size: smaller;
+    }
+    .line1:before {
+        font-size: 4em;
+    }
+    .line2:after {
+        font-size: 4em;
     }
 }
 
