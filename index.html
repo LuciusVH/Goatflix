@@ -19,7 +19,7 @@
             <div class="row container-fluid p-0 g-0">
                 <div class="col-12 header-wrapper">
                     <img src="assets/img/logo.png" alt="logo">
-                    <a href="#" class="button-cta">Book now!</a>
+                    <a href="#" class="button-cta" data-bs-toggle="modal" data-bs-target=".contactModal">Book now!</a>
                 </div>
             </div>
         </header>
@@ -93,7 +93,7 @@
                                 <h3>Galak</h3>
                             </div>
                         </div>
-                        <div class="goat-cta no-display"><a href="#" class="button-cta">Book me!</a></div>
+                        <div class="goat-cta no-display"><a href="#" class="button-cta" data-bs-toggle="modal" data-bs-target=".contactModal">Book me!</a></div>
                     </div>
                 </div>
                 <div class="col-12 col-xl-9 goat-description">
@@ -106,7 +106,7 @@
                     <p>Can you imagine that, the text of your next webpage?! I just can't do it. I like text that wasn’t captured. I think the only card she has is the Lorem card. It also could be some wordsmith sitting on their bed that weights 400 pounds.
                         It could be Russia, but it could also be China. Lorem Ipsum is the single greatest threat. That's to be expected. They’re bringing mistakes. We are not - we are not keeping up with other websites.</p>
                 </div>
-                <div class="goat-cta d-flex justify-content-center d-block d-sm-none"><a href="#" class="button-cta">Book Galak!</a></div>
+                <div class="goat-cta d-flex justify-content-center d-block d-sm-none"><a href="#" class="button-cta" data-bs-toggle="modal" data-bs-target=".contactModal">Book Galak!</a></div>
             </div>
             <hr class="divider no-display">
             <div class="row flex-row-reverse">
@@ -120,7 +120,7 @@
                                 <h3>Orion</h3>
                             </div>
                         </div>
-                        <div class="goat-cta no-display"><a href="#" class="button-cta">Book me!</a></div>
+                        <div class="goat-cta no-display"><a href="#" class="button-cta" data-bs-toggle="modal" data-bs-target=".contactModal">Book me!</a></div>
                     </div>
                 </div>
                 <div class="col-12 col-xl-9 goat-description">
@@ -133,7 +133,7 @@
                     <p>Can you imagine that, the text of your next webpage?! I just can't do it. I like text that wasn’t captured. I think the only card she has is the Lorem card. It also could be some wordsmith sitting on their bed that weights 400 pounds.
                         It could be Russia, but it could also be China. Lorem Ipsum is the single greatest threat. That's to be expected. They’re bringing mistakes. We are not - we are not keeping up with other websites.</p>
                 </div>
-                <div class="goat-cta d-flex justify-content-center d-block d-sm-none"><a href="#" class="button-cta">Book Orion!</a></div>
+                <div class="goat-cta d-flex justify-content-center d-block d-sm-none"><a href="#" class="button-cta" data-bs-toggle="modal" data-bs-target=".contactModal">Book Orion!</a></div>
             </div>
         </div>
         <!-- Images for the gallery -->
@@ -212,6 +212,70 @@
         </div>
     </footer>
     <!-- /Footer -->
+
+    <!-- Contact Modal -->
+    <div class="modal fade contactModal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-md-down">
+            <div class="modal-content">
+                <div class="modal-header justify-content-around">
+                    <img src="/assets/img/phil.png" alt="Philoctetes, a satyr character (half-human, half-goat) in Disney's animation movie Hercules" class="d-none d-sm-block">
+                    <h5 class="modal-title" id="ModalLabel">Contact & Booking</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form action="https://formdump.codeinstitute.net" method="post">
+                    <div class="modal-body container">
+                        <div class="mb-3 row">
+                            <div class="col-12 col-sm-3">
+                                <label for="name" class="form-label">Full name:</label>
+                            </div>
+                            <div class="col-12 col-sm-9">
+                                <input type="text" class="form-control form-control-sm" id="name" placeholder="Philoctetes" required>
+                            </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <div class="col-12 col-sm-3">
+                                <label for="email" class="form-label">Email address:</label>
+                            </div>
+                            <div class="col-12 col-sm-9">
+                                <input type="email" class="form-control form-control-sm" id="email" placeholder="phil@disney.com" required>
+                            </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <div class="col-12 col-sm-3">
+                                <label for="bookedTime" class="form-label">If booking, your preferred time...</label>
+                            </div>
+                            <div class="col-12 col-sm-3">
+                                <input type="datetime-local" class="form-control form-control-sm" id="bookedTime">
+                            </div>
+                            <div class="col-12 col-sm-3">
+                                <label for="bookedGoat" class="form-label">... and goat:</label>
+                            </div>
+                            <div class="col-12 col-sm-3">
+                                <select class="form-select form-select-sm" aria-label="Default select example" id="bookedGoat">
+                                        <option value="1" selected>Galak</option>
+                                        <option value="2">Orion</option>
+                                        <option value="3">Rosita</option>
+                                      </select>
+                            </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <div class="col-12 col-sm-3">
+                                <label for="message" class="form-label">Your message:</label>
+                            </div>
+                            <div class="col-12 col-sm-9">
+                                <textarea class="form-control form-control-sm" id="message" rows="4" placeholder="Yeah, I had a dream once. I dreamed I was gonna train the greatest hero there ever was. So great, the gods would hang a picture of him in the stars... all across the sky... and people would say, 'That's Phil's boy.' That's right."></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <input type="reset" class="btn btn-secondary" value="Reset"></button>
+                        <input type="submit" class="button-cta" value="Send"></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- /Contact Modal -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>

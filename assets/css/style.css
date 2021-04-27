@@ -309,6 +309,51 @@ footer ul {
 }
 
 
+/* _____ CONTACT MODAL _____ */
+
+.modal-content {
+    background-color: #222;
+}
+
+.modal-title {
+    font-family: "Bebas Neue", Helvetica;
+    font-size: 3em;
+    ;
+}
+
+form {
+    padding: 0 2em;
+}
+
+.modal-header {
+    position: relative;
+}
+
+.modal-header button {
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+}
+
+.modal-header,
+.modal-footer {
+    border: none;
+}
+
+.modal-header .btn-close {
+    margin: 0;
+    margin-bottom: 10.5em;
+}
+
+.modal-footer .button-cta {
+    padding: 7px 40px;
+}
+
+.form-label {
+    margin-bottom: 0;
+}
+
+
 /* _____ 404 PAGE _____ */
 
 .title-404 {
@@ -374,6 +419,9 @@ footer ul {
     .customer-picture {
         height: 8em;
     }
+    .modal-dialog {
+        max-width: 85%;
+    }
 }
 
 @media (max-width: 575px) {
@@ -401,6 +449,15 @@ footer ul {
     .img-404 {
         width: 75vw;
         padding: 5px;
+    }
+    .modal-dialog {
+        max-width: 100%;
+    }
+    .modal-header {
+        height: 16vh;
+    }
+    .modal-footer {
+        justify-content: space-between;
     }
 }
 
@@ -460,6 +517,18 @@ footer ul {
     .line2:after {
         font-size: 4em;
     }
+    .modal-header {
+        height: 11vh;
+    }
+    .modal-header h5 {
+        font-size: 2.2em;
+    }
+    .modal label {
+        font-size: smaller;
+    }
+    form {
+        padding: 0 1em;
+    }
 }
 
 @media (max-height: 300px) {
@@ -485,35 +554,4 @@ footer ul {
     .callout-cta br {
         display: none;
     }
-}
-
-
-/* _____ CONTACT MODAL _____ */
-
-.modal-dialog {
-    max-width: 65%;
-}
-
-.modal-content {
-    background-color: #222;
-}
-
-.modal-title {
-    font-family: "Bebas Neue", Helvetica;
-    font-size: 3em;
-    ;
-}
-
-.modal-header,
-.modal-footer {
-    border: none;
-}
-
-.modal-header .btn-close {
-    margin: 0;
-    margin-bottom: 10.5em;
-}
-
-.modal-footer .button-cta {
-    padding: 7px 40px;
 }
