@@ -486,3 +486,25 @@ footer ul {
         display: none;
     }
 }
+
+
+/* _____ CONTACT MODAL _____ */
+
+.modal-dialog {
+    max-width: 65%;
+}
+
+.modal-content {
+    background-color: #222;
+}
+
+.modal-title {
+    font-family: "Bebas Neue", Helvetica;
+    font-size: 3em;
+    ;
+}
+
+.modal-header .btn-close {
+    margin: 0;
+    margin-bottom: 10.5em;
+}
