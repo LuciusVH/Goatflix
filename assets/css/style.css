@@ -504,7 +504,16 @@ footer ul {
     ;
 }
 
+.modal-header,
+.modal-footer {
+    border: none;
+}
+
 .modal-header .btn-close {
     margin: 0;
     margin-bottom: 10.5em;
+}
+
+.modal-footer .button-cta {
+    padding: 7px 40px;
 }
