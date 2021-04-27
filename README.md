@@ -108,15 +108,16 @@ The logo has been designed using [FontMeme](https://fontmeme.com/netflix-font/),
 - <u>Landing area</u> - this section is a call to action (CTA), helping the customer to get quickly booking his videocall through the contact form, with the CTA link on the top right corner, or the potential customer to get more info on the goats with the CTA button "Meet our stars" under the title. 
 - <u>Navbar</u> - allows the user to easily navigate to any section of the website. It's been made sticky, so the navbar stays on the top of the screen, once the uses has reached the "stars" section, and straight on the top of the wikigoat.html page (no landing/CTA section on this page). 
 - <u>Stars section</u> - helps the user to familiarize himself/herself with some of the goats available for videocall. Each goat's card also displays a CTA link inviting the customer to book his videocall through the contact form.
+- <u>Customer reviews section</u> - allows the potential customer to get a feedback from previous customers and helps the decision process (as if seeing these cute goats wasn't sufficient enough!!)
+- <u>Footer</u> - informs and leads the user towards the breeding farm's social media accounts, and displays the copyright mention. 
+- <u>Image modal</u> - allows the user to visualize the picture in bigger size.
 
 ### Features Left to Implement
 
-- <u>Customer reviews section</u> - allows the potential customer to get a feedback from previous customers and helps the decision process (as if seeing these cute goats wasn't sufficient enough!!)
-- <u>Footer</u> - informs and leads the user towards the breeding farm's social media accounts, and displays the copyright mention. 
 - <u>General info section</u> - allows the user to get info about these animals, and pro tips if he/she is planning to get a goat himself/herself (or actually a couple of goats, at least, as it's explained in the section :wink:). 
+- <u>Contact modal</u> - allows the user to contact the goats owner, to set up a videocall or ask any question they may have.
 - <u>Famous goats section</u> - allows the user to learn more about some of the most eminent members of the goat community, whether they are real or fictional. 
 - <u>"Go to the top" button</u> - allows the user to get to the top of the webpage instantly, without having to scroll his/her way back up.
-- <u>Image modal</u> - allows the user to visualize the picture in bigger size. To be taken from [here](https://www.w3schools.com/css/css3_images.asp).
 - <u>Favicon</u> - allows the user to find more easily the Goatflix tab in his/her browser & improve SEO.
 
 
@@ -133,6 +134,8 @@ The logo has been designed using [FontMeme](https://fontmeme.com/netflix-font/),
     - Used for responsive grid structure & navbar. 
 - [JavaScript](https://www.javascript.com/)
     - Used for the modal effect when clicking on picture (code snippet taken from [W3Schools](https://www.w3schools.com/css/css3_images.asp)).
+- [Fancybox 3.5](https://fancyapps.com/fancybox/3/)
+    - Used for the images galleries & modal effect associated. 
 
 ### Developer tools
 
@@ -179,6 +182,8 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
+- The image in background, on the landing area, isn't displayed correctly on iPad, though it is when emulated through DevTools. The parameter "cover" doesn't seem to apply (screnshot taken).
+
 
 
 ## Deployment
@@ -208,12 +213,13 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Media
 
 - The hero picture is taken from [Unsplash](https://unsplash.com/photos/9mxoVvVQsEU).
+- The other goats pictures are from [L'élevage Toy & Miniature des Bois Noirs](https://www.facebook.com/ptiteschevres63/), my best friend's own toy goats herd. 
 
 ### Acknowledgements
 
 - I was heavily inspired by [Netflix](https://www.netflix.com)'s landing page to design Goatflix.
 - The "goat videocall" concept comes from my best friend, living in the French countryside in a small farm place. She owns some toy goats and had this idea of videocalls, to generate more incomes during this pandemic time. She needed a website to develop an online presence & this matched with my MSP#1 requirements. Please read the disclaimer following. 
-- The footer social links structure & hover effect are taken from Code Institute's Resume Mini Project.
+- The footer social links structure & hover effect are taken from Code Institute's Resume Mini Project, then slightly personalized. 
 - The polaroid design is from [Return-true](https://return-true.com/creating-a-polaroid-effect-with-css/).
 
 
