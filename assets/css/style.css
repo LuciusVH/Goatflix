@@ -281,6 +281,47 @@ h5.title {
     font-size: 3em;
 }
 
+.toc-list {
+    font-family: "Bebas Neue", Helvetica;
+    font-size: larger;
+}
+
+.toc-list li.li-main {
+    margin-top: 0.5em;
+}
+
+.toc-list li::marker {
+    color: #e50914;
+}
+
+.toc-list ul {
+    list-style-type: disc;
+}
+
+.toc-list a {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+}
+
+.toc-list a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 1em;
+    border-bottom: 2px solid #e50914;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.toc-list a:hover:after {
+    width: 100%;
+    border-bottom-color: #e50914;
+}
+
 h6.title {
     font-size: 2em;
     text-align: center;
