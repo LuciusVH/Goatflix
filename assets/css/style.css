@@ -330,10 +330,11 @@ h5.title {
 h6.title {
     font-size: 2em;
     text-align: center;
+    padding-top: 0.5em;
 }
 
 #general-info p {
-    padding-bottom: 1.5em;
+    padding-bottom: 0.5em;
 }
 
 #general-info hr {
@@ -343,6 +344,27 @@ h6.title {
 #general-info hr+p {
     padding-bottom: 0;
     text-align: center;
+}
+
+
+/* _____ FAMOUS GOATS _____ */
+
+.famous-goats-container {
+    padding: 2.5vh 0;
+    border-bottom: 8px solid #222;
+}
+
+.famous-goats-container img {
+    width: 100%;
+}
+
+.famous-goats-container p {
+    padding-bottom: 0.5em;
+}
+
+.famous-goat-title {
+    font-family: "Bebas Neue", Helvetica;
+    font-size: 2em;
 }
 
 
