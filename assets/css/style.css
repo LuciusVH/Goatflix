@@ -270,6 +270,11 @@ header {
 
 /* _____ GENERAL INFO _____ */
 
+.general-info-container {
+    padding: 2.5vh 0;
+    border-bottom: 8px solid #222;
+}
+
 .toc {
     background-color: #222;
     border-radius: 5px;
@@ -485,6 +490,10 @@ form {
     }
     .customer-card {
         padding: 0 1em;
+    }
+    .toc-list a:after {
+        width: 100%;
+        border-bottom-width: 2px;
     }
 }
 
