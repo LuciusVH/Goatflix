@@ -356,6 +356,7 @@ h6.title {
 
 .famous-goats-container img {
     width: 100%;
+    border-radius: 20%;
 }
 
 .famous-goats-container p {
@@ -365,6 +366,14 @@ h6.title {
 .famous-goat-title {
     font-family: "Bebas Neue", Helvetica;
     font-size: 2em;
+}
+
+.famous-goats-container a {
+    color: #fff;
+}
+
+.famous-goats-container a:hover {
+    text-decoration: underline solid #e50914 0.2em;
 }
 
 
