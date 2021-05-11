@@ -270,12 +270,21 @@ header {
 
 /* _____ GENERAL INFO _____ */
 
-h5.title {
-    font-size: 2.5em;
-}
-
 h6.title {
     font-size: 2em;
+    text-align: center;
+}
+
+#general-info p {
+    padding-bottom: 1.5em;
+}
+
+#general-info hr {
+    width: 85%;
+}
+
+#general-info hr+p {
+    padding-bottom: 0;
     text-align: center;
 }
 
