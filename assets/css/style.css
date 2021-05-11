@@ -270,6 +270,17 @@ header {
 
 /* _____ GENERAL INFO _____ */
 
+.toc {
+    background-color: #222;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 1em;
+}
+
+h5.title {
+    font-size: 3em;
+}
+
 h6.title {
     font-size: 2em;
     text-align: center;
