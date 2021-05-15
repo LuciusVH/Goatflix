@@ -111,14 +111,14 @@ The logo has been designed using [FontMeme](https://fontmeme.com/netflix-font/),
 - <u>Customer reviews section</u> - allows the potential customer to get a feedback from previous customers and helps the decision process (as if seeing these cute goats wasn't sufficient enough!!)
 - <u>Footer</u> - informs and leads the user towards the breeding farm's social media accounts, and displays the copyright mention. 
 - <u>Image modal</u> - allows the user to visualize the picture in bigger size.
+- <u>Contact modal</u> - allows the user to contact the goats owner, to set up a videocall or ask any question they may have.
+- <u>Favicon</u> - allows the user to find more easily the Goatflix tab in his/her browser & improve SEO.
 
 ### Features Left to Implement
 
 - <u>General info section</u> - allows the user to get info about these animals, and pro tips if he/she is planning to get a goat himself/herself (or actually a couple of goats, at least, as it's explained in the section :wink:). 
-- <u>Contact modal</u> - allows the user to contact the goats owner, to set up a videocall or ask any question they may have.
 - <u>Famous goats section</u> - allows the user to learn more about some of the most eminent members of the goat community, whether they are real or fictional. 
 - <u>"Go to the top" button</u> - allows the user to get to the top of the webpage instantly, without having to scroll his/her way back up.
-- <u>Favicon</u> - allows the user to find more easily the Goatflix tab in his/her browser & improve SEO.
 
 
 
@@ -140,7 +140,6 @@ The logo has been designed using [FontMeme](https://fontmeme.com/netflix-font/),
 ### Developer tools
 
 - [Github](https://github.com/)
-
   - The project uses **Github** to manage and host the repository.
 - [Git](https://git-scm.com/) 
   - The project uses **Git** for Version Control. 
@@ -149,12 +148,13 @@ The logo has been designed using [FontMeme](https://fontmeme.com/netflix-font/),
 - [Typora](https://typora.io/)
   - **Typora** was used to write this README.md file.
 - [Balsamiq](https://balsamiq.com/)
-
   - **Balsamiq** was used to create the wireframes. 
 - [TinyPNG](https://tinypng.com/)
   - **TinyPNG** was used to compress all pictures, in order to reduce the loading time and improve UX. 
 - [Fontmeme](https://fontmeme.com/netflix-font/)
   - **FontMeme** was used to create the Goatflix logo, imitating the Netflix logo in color and shape. 
+- [Favicon.io](https://favicon.io/)
+  - **FavIcon** was used to create and implement the favicon. 
 
 
 
@@ -221,6 +221,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The "goat videocall" concept comes from my best friend, living in the French countryside in a small farm place. She owns some toy goats and had this idea of videocalls, to generate more incomes during this pandemic time. She needed a website to develop an online presence & this matched with my MSP#1 requirements. Please read the disclaimer following. 
 - The footer social links structure & hover effect are taken from Code Institute's Resume Mini Project, then slightly personalized. 
 - The polaroid design is from [Return-true](https://return-true.com/creating-a-polaroid-effect-with-css/).
+- The Table of Content's link hover effect is taken from [CSS-Portal](https://www.cssportal.com/blog/css-animated-underline-links/) then customized.
+- The info about Pan comes from [Wikipedia](https://en.wikipedia.org/wiki/Pan_%28god%29) & [GreekMythology](https://www.greekmythology.com/Other_Gods/Pan/pan.html).
 
 
 
