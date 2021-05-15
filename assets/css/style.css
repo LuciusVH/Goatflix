@@ -299,8 +299,24 @@ h5.title {
     color: #e50914;
 }
 
-.toc-list ul {
-    list-style-type: disc;
+.toc-list li.li-sub {
+    list-style: none;
+    color: #e50914;
+}
+
+.toc-list .li-sub#sub-one:before {
+    content: "1.1";
+    padding-right: 0.2em;
+}
+
+.toc-list .li-sub#sub-two:before {
+    content: "2.1";
+    padding-right: 0.2em;
+}
+
+.toc-list .li-sub#sub-four:before {
+    content: "4.1";
+    padding-right: 0.2em;
 }
 
 .toc-list a {
@@ -346,6 +362,12 @@ h6.title {
     text-align: center;
 }
 
+#general-info img {
+    display: block;
+    margin: 0.5em auto;
+    border-radius: 25%;
+}
+
 
 /* _____ FAMOUS GOATS _____ */
 
@@ -357,6 +379,9 @@ h6.title {
 .famous-goats-container img {
     width: 100%;
     border-radius: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .famous-goats-container p {
@@ -571,6 +596,15 @@ form {
     }
     .modal-footer {
         justify-content: space-between;
+    }
+    .famous-goat-title {
+        text-align: center;
+    }
+    .famous-goats-container img {
+        width: 60%;
+    }
+    .text-end {
+        text-align: left!important;
     }
 }
 
