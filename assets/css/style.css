@@ -648,6 +648,9 @@ form {
     body p {
         font-size: small;
     }
+    #general-info ul li {
+        font-size: small;
+    }
     header {
         height: 60px;
     }
