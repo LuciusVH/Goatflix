@@ -366,6 +366,7 @@ h6.title {
     display: block;
     margin: 0.5em auto;
     border-radius: 25%;
+    max-width: 50%;
 }
 
 #general-info ul {
@@ -613,6 +614,9 @@ form {
     }
     .text-end {
         text-align: left!important;
+    }
+    #general-info img {
+        max-width: 85%;
     }
 }
 
