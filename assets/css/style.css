@@ -433,12 +433,12 @@ footer ul {
 }
 
 .social li a i {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     padding: 11px 0;
     border-radius: 50%;
-    font-size: 16px;
-    line-height: 5px;
+    font-size: 20px;
+    line-height: 8px;
     color: #e50914;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -454,7 +454,7 @@ footer ul {
 
 .copyright {
     padding-top: 0.2rem;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 
