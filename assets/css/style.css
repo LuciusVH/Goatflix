@@ -252,8 +252,18 @@ header {
     padding: 1em;
 }
 
+#our-stars p {
+    padding-bottom: 0.5em;
+}
+
+.gallery-mention {
+    font-style: italic;
+    font-size: smaller;
+    padding-top: 2em;
+}
+
 .divider {
-    width: 65vw;
+    width: 55vw;
     background-color: #e50914;
     margin: 2vh auto;
     opacity: 1;
@@ -422,6 +432,10 @@ h6.title {
 
 .famous-goats-container a:hover {
     text-decoration: underline solid #e50914 0.2em;
+}
+
+#famous-goats .divider {
+    margin-bottom: 4vh;
 }
 
 
