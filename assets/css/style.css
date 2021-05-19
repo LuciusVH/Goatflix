@@ -188,6 +188,10 @@ header {
     margin-top: 0.5em;
 }
 
+.goat-card {
+    margin-bottom: 4vh;
+}
+
 .pola-container {
     display: flex;
     flex-direction: column;
@@ -268,7 +272,7 @@ header {
 }
 
 .blockquote {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .blockquote-footer {
@@ -355,7 +359,7 @@ h5.title {
 h6.title {
     font-size: 2em;
     text-align: center;
-    padding-top: 0.5em;
+    padding-top: 1.2em;
 }
 
 #general-info p {
@@ -627,6 +631,9 @@ form {
     }
     #general-info img {
         max-width: 85%;
+    }
+    h6.title {
+        padding-top: 0.8em;
     }
 }
 
