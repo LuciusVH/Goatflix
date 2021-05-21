@@ -1,6 +1,9 @@
 # First Milestone Project
 
 
+<p align="center">
+  <img src="https://github.com/LuciusVH/goatflix/blob/main/assets/img/logo-readme.png" alt="Goatflix's logo"/>
+</p>
 
 ![logo](https://github.com/LuciusVH/goatflix/blob/main/assets/img/logo-readme.png "Goatflix's logo")
 
