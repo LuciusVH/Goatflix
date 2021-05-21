@@ -254,10 +254,16 @@ For more info and troubleshooting, please check [GitHub documentation](https://d
 ### Acknowledgements
 
 - I was heavily inspired by [Netflix](https://www.netflix.com)'s landing page to design Goatflix.
+
 - The "goat videocall" concept comes from my best friend, living in the French countryside in a small farm place. She owns some toy goats and had this idea of videocalls, to generate more incomes during this pandemic time. She needed a website to develop an online presence & this matched with my MSP#1 requirements. Please read the disclaimer following. 
+
 - The footer social links structure & hover effect are taken from Code Institute's Resume Mini Project, then slightly personalized. 
+
 - The polaroid design is from [Return-true](https://return-true.com/creating-a-polaroid-effect-with-css/).
+
 - The Table of Content's link hover effect is taken from [CSS-Portal](https://www.cssportal.com/blog/css-animated-underline-links/) then customized.
+
+- The goat icon picture, used as list markers on wikigoat.html is from [Flaticon](https://www.flaticon.com/free-icon/goat_141686?term=goat&page=1&position=27&page=1&position=27&related_id=141686&origin=tag).
 
   
 
