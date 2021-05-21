@@ -1,11 +1,8 @@
 # First Milestone Project
 
-
 <p align="center">
-  <img src="https://github.com/LuciusVH/goatflix/blob/main/assets/img/logo-readme.png" alt="Goatflix's logo"/>
+  <img src="https://github.com/LuciusVH/goatflix/blob/main/assets/img/readme/logo-readme.png" alt="Goatflix's logo"/>
 </p>
-
-![logo](https://github.com/LuciusVH/goatflix/blob/main/assets/img/logo-readme.png "Goatflix's logo")
 
 
 
@@ -189,23 +186,59 @@ If this section grows too long, you may want to split it off into a separate fil
 
 
 
-## Deployment
+## Deployment & cloning
 
 You can find the deployed site [here](https://luciusvh.github.io/goatflix/). 
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+### Deployment
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+To deploy the website live through GitHub Pages I:
 
-- Different values for environment variables (Heroku Config Vars)?
+1. Went on my repository on GitHub and clicked on "Settings"
 
-- Different configuration files?
+   <p align="center">
+     <img src="https://github.com/LuciusVH/goatflix/blob/main/assets/img/readme/dpl-step1.png" alt="deployment step 1"/>
+   </p>
 
-- Separate git branch?
+2. Selected "Pages" on the left-side navigation menu
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+   <p align="center">
+     <img src="https://github.com/LuciusVH/goatflix/blob/main/assets/img/readme/dpl-step2.png" alt="deployment step 2"/>
+   </p>
 
+3. On the "Source" section, I selected `Branch: main`, `/ (root)` & *Save*
 
+   <p align="center">
+     <img src="https://github.com/LuciusVH/goatflix/blob/main/assets/img/readme/dpl-step3.png" alt="deployment step 3"/>
+   </p>
+
+4. There you have it! :smile:
+
+   <p align="center">
+     <img src="https://github.com/LuciusVH/goatflix/blob/main/assets/img/readme/dpl-step4.png" alt="deployment step 4"/>
+   </p>
+
+### Cloning
+
+If you wish to clone the project and run it locally, follow these steps once on the repository:
+
+1. Click on the "Code" button, then on the board icon to copy the link of the repo
+
+   <p align="center">
+     <img src="https://github.com/LuciusVH/goatflix/blob/main/assets/img/readme/cln-step1.png" alt="cloning step 1"/>
+   </p>
+
+2. Open your preferred IDE
+
+3. Change the current working directory to the location where you want the cloned directory
+
+4. In the terminal of your IDE, type `git clone https://github.com/LuciusVH/goatflix.git` and press **Enter**
+
+5. There you have it! :smile:
+
+For more info and troubleshooting, please check [GitHub documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository).
+
+### 
 
 ## Credits
 
@@ -225,9 +258,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The footer social links structure & hover effect are taken from Code Institute's Resume Mini Project, then slightly personalized. 
 - The polaroid design is from [Return-true](https://return-true.com/creating-a-polaroid-effect-with-css/).
 - The Table of Content's link hover effect is taken from [CSS-Portal](https://www.cssportal.com/blog/css-animated-underline-links/) then customized.
-- The info about Pan comes from [Wikipedia](https://en.wikipedia.org/wiki/Pan_%28god%29) & [GreekMythology](https://www.greekmythology.com/Other_Gods/Pan/pan.html).
 
-
+  
 
 ------
 
