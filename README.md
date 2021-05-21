@@ -109,6 +109,8 @@ The logo has been designed using [FontMeme](https://fontmeme.com/netflix-font/),
 - <u>Navbar</u> - allows the user to easily navigate to any section of the website. It's been made sticky, so the navbar stays on the top of the screen, once the uses has reached the "stars" section, and straight on the top of the wikigoat.html page (no landing/CTA section on this page). 
 - <u>Stars section</u> - helps the user to familiarize himself/herself with some of the goats available for videocall. Each goat's card also displays a CTA link inviting the customer to book his videocall through the contact form.
 - <u>Customer reviews section</u> - allows the potential customer to get a feedback from previous customers and helps the decision process (as if seeing these cute goats wasn't sufficient enough!!)
+- <u>General info section</u> - allows the user to get info about these animals, and pro tips if he/she is planning to get a goat himself/herself (or actually a couple of goats, at least, as it's explained in the section :wink:). 
+- <u>Famous goats section</u> - allows the user to learn more about some of the most eminent members of the goat community, whether they are real or fictional. 
 - <u>Footer</u> - informs and leads the user towards the breeding farm's social media accounts, and displays the copyright mention. 
 - <u>Image modal</u> - allows the user to visualize the picture in bigger size.
 - <u>Contact modal</u> - allows the user to contact the goats owner, to set up a videocall or ask any question they may have.
@@ -116,8 +118,6 @@ The logo has been designed using [FontMeme](https://fontmeme.com/netflix-font/),
 
 ### Features Left to Implement
 
-- <u>General info section</u> - allows the user to get info about these animals, and pro tips if he/she is planning to get a goat himself/herself (or actually a couple of goats, at least, as it's explained in the section :wink:). 
-- <u>Famous goats section</u> - allows the user to learn more about some of the most eminent members of the goat community, whether they are real or fictional. 
 - <u>"Go to the top" button</u> - allows the user to get to the top of the webpage instantly, without having to scroll his/her way back up.
 
 
