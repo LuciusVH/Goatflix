@@ -56,7 +56,7 @@ h3.title {
 }
 
 .callout-cta p {
-    text-indent: 0s;
+    text-indent: 0;
 }
 
 
@@ -318,27 +318,18 @@ h5.title {
     margin-top: 0.5em;
 }
 
-.toc-list li::marker {
+.toc ol {
+    counter-reset: item
+}
+
+.toc li {
+    display: block
+}
+
+.toc li:before {
+    content: counters(item, ".") " ";
+    counter-increment: item;
     color: #e50914;
-}
-
-.toc-list li.li-sub {
-    list-style: none;
-    color: #e50914;
-}
-
-.toc-list .li-sub#sub-one:before {
-    content: "1.1";
-    padding-right: 0.2em;
-}
-
-.toc-list .li-sub#sub-two:before {
-    content: "2.1";
-    padding-right: 0.2em;
-}
-
-.toc-list .li-sub#sub-four:before {
-    content: "4.1";
     padding-right: 0.2em;
 }
 
@@ -442,7 +433,8 @@ h6.title {
 }
 
 .famous-goats-container a:hover {
-    text-decoration: underline solid #e50914 0.2em;
+    text-decoration: underline solid #e50914;
+    text-decoration-thickness: 0.2em;
 }
 
 #famous-goats .divider {
