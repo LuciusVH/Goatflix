@@ -15,6 +15,7 @@
 </head>
 
 <body>
+    <!-- Navbar -->
     <nav class="navbar sticky-top p-0 navbar-expand-md navbar-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
@@ -39,12 +40,14 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact us</a>
+                        <a class="nav-link" data-bs-toggle="modal" data-bs-target=".contactModal">Contact us</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+    <!-- /Navbar -->
+    <!-- 404 content -->
     <div class="container">
         <div class="row text-center">
             <div class="col">
@@ -63,7 +66,75 @@
             </div>
         </div>
     </div>
+    <!-- /404 content -->
+    <!-- Contact modal -->
+    <div class="modal fade contactModal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-md-down">
+            <div class="modal-content">
+                <div class="modal-header justify-content-around">
+                    <img src="assets/img/phil.png" alt="Philoctetes, a satyr character (half-human, half-goat) in Disney's animation movie Hercules" class="d-none d-sm-block">
+                    <h5 class="modal-title" id="ModalLabel">Contact & Booking</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form action="https://formdump.codeinstitute.net" method="post">
+                    <div class="modal-body container">
+                        <div class="mb-3 row">
+                            <div class="col-12 col-sm-3">
+                                <label for="name" class="form-label">Full name:</label>
+                            </div>
+                            <div class="col-12 col-sm-9">
+                                <input type="text" class="form-control form-control-sm" id="name" name="name" placeholder="Philoctetes" required>
+                            </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <div class="col-12 col-sm-3">
+                                <label for="email" class="form-label">Email address:</label>
+                            </div>
+                            <div class="col-12 col-sm-9">
+                                <input type="email" class="form-control form-control-sm" id="email" name="email" placeholder="phil@disney.com" required>
+                            </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <div class="col-12 col-sm-3">
+                                <label for="bookedTime" class="form-label">If booking, your preferred time...</label>
+                            </div>
+                            <div class="col-12 col-sm-3">
+                                <input type="datetime-local" class="form-control form-control-sm" id="bookedTime" name="bookedTime">
+                            </div>
+                            <div class="col-12 col-sm-3">
+                                <label for="bookedGoat" class="form-label">... and goat:</label>
+                            </div>
+                            <div class="col-12 col-sm-3">
+                                <select class="form-select form-select-sm" aria-label="Default select example" id="bookedGoat" name="bookedGoat">
+                                    <option value="galak" selected>Galak</option>
+                                    <option value="orion">Orion</option>
+                                    <option value="lili">Lili</option>
+                                    <option value="djali">Djali</option>
+                                    <option value="cereale">Cereale</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <div class="col-12 col-sm-3">
+                                <label for="message" class="form-label">Your message:</label>
+                            </div>
+                            <div class="col-12 col-sm-9">
+                                <textarea class="form-control form-control-sm" id="message" name="message" rows="4" placeholder="Yeah, I had a dream once. I dreamed I was gonna train the greatest hero there ever was. So great, the gods would hang a picture of him in the stars... all across the sky... and people would say, 'That's Phil's boy.' That's right."></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <input type="reset" class="btn btn-secondary" value="Reset">
+                        <input type="submit" class="button-cta" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- /Contact modal -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 </body>
 
 </html>
