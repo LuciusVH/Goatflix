@@ -23,6 +23,34 @@ h3.title {
 }
 
 
+/* _____ GO TO THE TOP ICON _____ */
+
+#goToTheTop {
+    display: none;
+    position: fixed;
+    bottom: 0.5em;
+    right: 0.5em;
+    z-index: 99;
+    font-size: 1.5em;
+    border: none;
+    outline: none;
+    color: #e50914;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 0.15em 0.45em;
+    border-radius: 50%;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+#goToTheTop:hover {
+    color: #ff0000;
+    bottom: 1em;
+}
+
+
 /* _____ CALL-OUT _____ */
 
 .callout-container {
@@ -201,6 +229,9 @@ header {
     padding-top: 1em;
 }
 
+
+/* The polaroid effect is taken from return-true.com */
+
 .polaroid {
     position: relative;
     background: #fff;
@@ -338,6 +369,9 @@ h5.title {
     text-decoration: none;
     position: relative;
 }
+
+
+/* The link underline effect is taken from www.cssportal.com */
 
 .toc-list a:after {
     content: '';

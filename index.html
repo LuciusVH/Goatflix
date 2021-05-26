@@ -48,6 +48,10 @@
     </div>
     <!-- /Landing area -->
 
+    <!-- Go to the top button -->
+    <button onclick="topFunction()" id="goToTheTop" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+    <!-- /Go to the top button -->
+
     <!-- Navbar -->
     <nav class="navbar sticky-top p-0 navbar-expand-md navbar-dark">
         <div class="container-fluid">
@@ -93,6 +97,7 @@
                 <div class="col-12 col-lg-10 mx-auto">
                     <div class="row goat-card">
                         <div class="col-12 col-xl-4">
+                            <!-- The polaroid effect is taken from return-true.com -->
                             <div class="pola-container">
                                 <div class="polaroid pola-left" data-fancybox-trigger="galak">
                                     <div class="pola-picture">
@@ -382,6 +387,26 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <!-- The following script is taken from W3C School -->
+    <script>
+        var mybutton = document.getElementById("goToTheTop");
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 </body>
 
 </html>
