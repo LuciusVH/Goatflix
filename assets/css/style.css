@@ -79,12 +79,20 @@ h3.title {
     line-height: 90%;
 }
 
+.cta-text {
+    font-size: 1.3em;
+}
+
 .callout-cta br {
     display: none;
 }
 
 .callout-cta p {
     text-indent: 0;
+}
+
+.callout-cta p~p {
+    padding-top: 1em;
 }
 
 
@@ -651,6 +659,9 @@ form {
     }
     .callout-cta br {
         display: inline;
+    }
+    .cta-text {
+        font-size: 1em;
     }
     .dropdown-menu {
         background-color: transparent;
