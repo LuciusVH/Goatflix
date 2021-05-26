@@ -110,6 +110,7 @@ The logo has been designed using [FontMeme](https://fontmeme.com/netflix-font/),
 - <u>Stars section</u> - helps the user to familiarize himself/herself with some of the goats available for videocall. Each goat's card also displays a CTA link inviting the customer to book his videocall through the contact form.
 - <u>Customer reviews section</u> - allows the potential customer to get a feedback from previous customers and helps the decision process (as if seeing these cute goats wasn't sufficient enough!!)
 - <u>General info section</u> - allows the user to get info about these animals, and pro tips if he/she is planning to get a goat himself/herself (or actually a couple of goats, at least, as it's explained in the section :wink:). 
+- <u>Table Of Content</u> - allows the user to navigate easily within the General info section. 
 - <u>Famous goats section</u> - allows the user to learn more about some of the most eminent members of the goat community, whether they are real or fictional. 
 - <u>Footer</u> - informs and leads the user towards the breeding farm's social media accounts, and displays the copyright mention. 
 - <u>Image modal</u> - allows the user to visualize the picture in bigger size.
@@ -160,29 +161,120 @@ The logo has been designed using [FontMeme](https://fontmeme.com/netflix-font/),
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+The website has been tested automatically through W3C HTML & CSS validators, also with Lighthouse. 
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+### HTML Validator ([W3C](https://validator.w3.org/))
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+**index.html** 
 
-1. Contact form:
+- Element `<figcaption>` cannot be nested inside element `<blockquote>` x2 (lines 264 & 279) - <u>corrected</u>
 
-    1. Go to the "Contact Us" page
+I switched the `<figcaption>` elements for a regular `<p>` & modified CSS to realigned the newly created `<p>`. 
 
-    2. Try to submit the empty form and verify that an error message about the required fields appears
+- Useless closing tag `</button>` x2 (lines 371 & 372) - <u>corrected</u>
 
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
+Closing tags deleted.
 
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+**wikigoat.html** 
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+- Element [`ol`](https://html.spec.whatwg.org/multipage/#the-ol-element) not allowed as child of element [`ol`](https://html.spec.whatwg.org/multipage/#the-ol-element) in this context x3 (lines 70, 74 & 75) - <u>corrected</u>
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+These errors were spotted in the structure of the Table of Content. After researching, I learned that list-nested `<ol>` & `<ul>` must be inside a `<li>`.  This also helped me restructure the Table of Content properly, thanks to this [Stack Overflow thread](https://stackoverflow.com/questions/10405945/html-ordered-list-1-1-1-2-nested-counters-and-scope-not-working). 
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+- No `p` element in scope but a `p` end tag seen x2 (lines 106 & 157) - <u>corrected</u>
 
-- The image in background, on the landing area, isn't displayed correctly on iPad, though it is when emulated through DevTools. The parameter "cover" doesn't seem to apply (screnshot taken).
+I had nested the `<ul>` inside the `<p>`, so I changed and closed the `<p>` before to open the `<ul>`.
+
+- Useless closing tag `</button>` x2 (lines 341 & 342) - <u>corrected</u>
+
+Closing tags deleted.
+
+**404.html**
+
+- No error found.
+
+### CSS Validator ([W3C](https://jigsaw.w3.org/css-validator/validator.html))
+
+- Property `text-decoration-thickness` doesn't exist.
+
+After checking with [CanIUse](https://caniuse.com/), this property works on all updated computer browsers so I decided to go forward with it anyway. It doesn't matter if this effect doesn't work on some mobile devices, as there's no real hovering on mobile. 
+
+<p align="center">
+  <img src="https://github.com/LuciusVH/goatflix/blob/main/assets/img/readme/caniuse-text-decoration-thickness.png" alt="Proof of usability for the property text-decoration-thickness"/>
+</p>
+
+
+
+### Lighthouse
+
+**index.html**
+
+<p align="center">
+  <img src="https://github.com/LuciusVH/goatflix/blob/main/assets/img/readme/lighthouse-index.png" alt="Lighthouse report of index.html"/>
+</p>
+
+**wikigoat.html**
+
+<p align="center">
+  <img src="https://github.com/LuciusVH/goatflix/blob/main/assets/img/readme/lighthouse-wikigoat.png" alt="Lighthouse report of wikigoat.html"/>
+</p>
+
+**404.html**
+
+<p align="center">
+  <img src="https://github.com/LuciusVH/goatflix/blob/main/assets/img/readme/lighthouse-404.png" alt="Lighthouse report of 404.html"/>
+</p>
+
+
+
+The website has also been tested manually, all along its creation. I personally tested and checked it with Chrome, Mozilla Firefox & Microsoft Edge. Thanks to Chrome DevTools, I emulated the following screenviews and made the website responsive on each of the following device:
+
+- Moto G4
+- Galaxy S5
+- iPhone 5/SE
+- iPhone 6/7/8
+- iPhone 6/8/8 Plus
+- iPhone X
+- iPad
+- iPad Pro
+- Surface Duo
+
+I also used my own Huawei P20 to test it. 
+
+#### Link testing:
+
+**Navbar, on all pages** 
+
+- "Home" loads *index.html*.
+- "Our Stars" loads *index.html*, links to "our-stars" ID. 
+- "Wikigoat" displays a dropdown menu:
+  - "General info" loads *wikigoat.html*, links to "general-info" ID.
+  - "Famous goats" loads *wikigoat.html*, links to "famous-goats" ID.
+- "Contact us" loads the contact modal.
+
+**index.html**
+
+- "Book now!" CTA button loads the contact modal.
+- "Meet our stars!" CTA button links to "our-stars" ID.
+- Clicking on each goat polaroid loads a photo gallery of its respective goat. 
+- "Book me!" CTA button loads the contact modal, on big screens / "Book Galak/Orion/Lili/Djali/Cereale!" CTA button loads the contact modal, on small screens.
+
+**wikigoat.html**
+
+- Each of the 7 Table of Content's links leads to its respective article. 
+- Each of the 3 Wikipedia's links, on the Famous Goats section, leads to its respective Wikipedia page.
+
+**Social links, on index.html & wikigoat.html**
+
+- "Facebook" loads https://www.facebook.com/.
+- "Instagram" loads https://www.instagram.com/.
+- "YouTube" loads https://www.youtube.com/.
+
+
+
+#### Spotted bugs & errors:
+
+- On the contact form, the `datetime-local` input does not work on [Mozilla Firefox](https://github.com/LuciusVH/goatflix/blob/main/assets/img/readme/mz-dateinput.png) (link to screenshot). Instead, it displays a regular `text` input, which is okay so far because the form label stipulates what is expected. So Firefox users can write date & time instead. 
 
 
 
@@ -238,7 +330,7 @@ If you wish to clone the project and run it locally, follow these steps once on 
 
 For more info and troubleshooting, please check [GitHub documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository).
 
-### 
+
 
 ## Credits
 
@@ -264,6 +356,8 @@ For more info and troubleshooting, please check [GitHub documentation](https://d
 - The Table of Content's link hover effect is taken from [CSS-Portal](https://www.cssportal.com/blog/css-animated-underline-links/) then customized.
 
 - The goat icon picture, used as list markers on wikigoat.html is from [Flaticon](https://www.flaticon.com/free-icon/goat_141686?term=goat&page=1&position=27&page=1&position=27&related_id=141686&origin=tag).
+
+- The Go to the top button & script are taken from [W3C School](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp) and then customized. 
 
   
 
