@@ -10,6 +10,8 @@ Hi there and welcome!
 
 This is a website created as my first Milestone Project for the Full Stack Developer Course of Code Institute, after completing the three first modules : HTML, CSS & User Centric Front End Development. 
 
+<u>**It's a static website only**</u> (except for the "Go to the top" button feature & the contact and photo galleries modals), which means the contact form is currently redirecting answers to Code Institute dumpster server (https://formdump.codeinstitute.net).
+
 You can find the deployed site [here](https://luciusvh.github.io/goatflix/).
 
 > **NOTE:** The links included in this README will not automatically open in a new tab. Press CTRL+ click on the link to open the target in a new tab.
@@ -47,37 +49,38 @@ This website is for goats enthusiasts, more specifically Nigerian dwarf goats (w
 
 ### 	Structure & Design
 
-Goatflix is structured in a 2 pages website, each divided in several sections. The general theme is heavily inspired by the streaming website [Netflix](https://www.netflix.com) (and so is the name :wink:).
+Goatflix is structured in a 2 pages website, each divided in several sections. It also includes a 404 page. The general theme is heavily inspired by the streaming website [Netflix](https://www.netflix.com) (and so is the name :wink:).
 
-On large screens (above 768px), the [index.html page](https://github.com/LuciusVH/goatflix/blob/main/assets/img/wireframes/index-lg.png) (clicking opens up the wireframe picture) is divided in 3 different sections:
+On large screens, the [index.html page](https://github.com/LuciusVH/goatflix/blob/main/assets/img/wireframes/index-lg.png) (clicking opens up the wireframe picture) is divided in 3 different sections:
 
-1. The callout section, displaying a large hero image in the background, the logo on the top left corner, a Call To Action (CTA) link on the top right corner opening up the contact modal form to book a videocall, a title & text paragraph followed by another CTA link anchored to the next section (leading the user towards the rest of the webpage). 
+1. The callout section, displaying a large hero image in the background, the logo on the top left corner, a Call To Action (CTA) link on the top right corner opening up the contact modal form to book a videocall, a title & text paragraphs followed by another CTA link anchored to the next section (leading the user towards the rest of the webpage). 
 
-2. The "Stars" section, displaying 4 different Nigerian dwarf goats: each with a picture, name, text description of their character & fun facts and finally a CTA button, opening up the contact modal form in order to book a videocall.
+2. The "Stars" section, displaying 5 different Nigerian dwarf goats: each with a picture, name, text description of their character & fun facts and finally a CTA button, opening up the contact modal form in order to book a videocall.
 
 3. The customers reviews section, displaying 2 reviews: picture of the customer & text review. 
 
 The navbar appears only once the user has reached the "stars" section, allowing the landing area to have an even more important impact. Once showing up, the navbar is fixed to the top of the screen, overlaying the rest of the content. The navbar displays:
 
 1. The Goatflix logo on the left side, linking to the index.html, as it is conventional.
-
 2. A set of links, from left to right, on the right side of the navbar: "Home", "Our Stars", "Wikigoat" & "Contact". The "Wikigoat" link is a dropdown menu, revealing 2 sub-links: "General info" & "Famous goats". Those two links take the user to the second page of the website.
 
-On a smaller device, under 768px, the only change on [index.html](https://github.com/LuciusVH/goatflix/blob/main/assets/img/wireframes/index-sm.png) is that the navbar links get hidden under a *"hamburger"* icon on the right side, while the logo picture remains on the left. 
+On a tablet screen, the "Our stars" display changes : the goat picture & CTA button are now side-to-side, with the goat description under them.
+
+On a mobile screens, the main change on [index.html](https://github.com/LuciusVH/goatflix/blob/main/assets/img/wireframes/index-sm.png) is that the navbar links get hidden under a *"hamburger"* icon on the right side, while the logo picture remains on the left. "Our stars" display changes again, with now a picture of the goat, the description and then the CTA button, all on top of another. The customer reviews section only displays the reviews, no more customer picture. 
 
 The footer, for its part, displays links to different social networks, and the copyright mention below them.
 
 The [wikigoat.html page](https://github.com/LuciusVH/goatflix/blob/main/assets/img/wireframes/wikigoat-lg.png) is divided in 2 sections:
 
-1. The landing section, displaying a large hero video (muted, in loop, without user commands) with the title "General info" on its lower part. Following are: an intro text, a summary and the content divided in sections & sub-sections. One or two pictures will be displayed, in the middle of the content. 
+1. The landing section, displaying a small intro text, a table of content to navigate easily into the info & tips, and the content divided in sections & sub-sections. Three pictures are displayed, in the middle of the content. 
 
-2. The "Famous goats" section is replicating the design of the "Stars" section, with a picture, the name and a text description for each goat, minus the CTA button. 
+2. The "Famous goats" section is replicating the design of the "Stars" section, with a picture, the name and a text description for each goat, minus the CTA button. Each article includes a link to Wikipedia, for more info. 
 
-On smaller screen, [wikigoat.html](https://github.com/LuciusVH/goatflix/blob/main/assets/img/wireframes/wikigoat-sm.png) will be the same but with the side margins reduced to a minimum.
+On mobile screens, [wikigoat.html](https://github.com/LuciusVH/goatflix/blob/main/assets/img/wireframes/wikigoat-sm.png) will be basically the same but with the side margins reduced to a minimum. As with "Our stars", the "Famous goats" display changes for a more vertical one : picture, name & text on top of another instead of side-by-side. 
 
 Finally, when clicked on one of the [contact](https://github.com/LuciusVH/goatflix/blob/main/assets/img/wireframes/contactmodal-lg.png) links, the form opens up in a modal alert, overlaying the rest of the website. It shows a picture of Philoctetes (a goat-ish Disney character), side-by-side with the title "Contact & booking". Following, two inputs for the user's name & email and a text area for the message, a "submit" button & a "reset" button. The label for each input and text area is displayed on the left of its respective field. The placeholders displays "Philoctetes" in the name field, "phil@disney.com" (fictional email address) & a Phil's line in the message field, taken from the Disney animation movie *Hercules* (best Disney <u>ever</u>, thanks). 
 
-On smaller screen, the [modal contact form](https://github.com/LuciusVH/goatflix/blob/main/assets/img/wireframes/contactmodal-sm.png) is basically the same but with no picture and each input and text area is displayed below its own label. 
+On mobile screens, the [modal contact form](https://github.com/LuciusVH/goatflix/blob/main/assets/img/wireframes/contactmodal-sm.png) is basically the same but with no picture and each input and text area is displayed below its own label instead of next to each other.
 
 The fonts are taken from [Google Fonts](https://fonts.google.com/):
 
@@ -114,12 +117,14 @@ The logo has been designed using [FontMeme](https://fontmeme.com/netflix-font/),
 - <u>Famous goats section</u> - allows the user to learn more about some of the most eminent members of the goat community, whether they are real or fictional. 
 - <u>Footer</u> - informs and leads the user towards the breeding farm's social media accounts, and displays the copyright mention. 
 - <u>Image modal</u> - allows the user to visualize the picture in bigger size.
-- <u>Contact modal</u> - allows the user to contact the goats owner, to set up a videocall or ask any question they may have.
+- <u>Contact modal</u> - allows the user to contact the goats owner, to set up a videocall or ask any question they may have. This website being a static website only built for educational purposes, the contact form is currently redirecting answers to Code Institute dumpster server (https://formdump.codeinstitute.net).
 - <u>Favicon</u> - allows the user to find more easily the Goatflix tab in his/her browser & improve SEO.
+- <u>"Go to the top" button</u> - allows the user to get to the top of the webpage instantly, without having to scroll his/her way back up.
+- <u>404 page</u> - inform the user, with a humoristic touch, that something went wrong and invites her/him to go back to the actual content.
 
 ### Features Left to Implement
 
-- <u>"Go to the top" button</u> - allows the user to get to the top of the webpage instantly, without having to scroll his/her way back up.
+- <u>Booking system</u> - allows the user to book her/his preferred time through the contact modal directly. I don't have the knowledge yet to build such a feature.
 
 
 
@@ -365,7 +370,7 @@ For more info and troubleshooting, please check [GitHub documentation](https://d
 
 ## DISCLAIMER
 
-This specific website is entirely designed for educational purpose only. 
+This specific website is entirely designed for educational purposes only. 
 
 However, please note that a clone of the Github repository might be done in the next weeks, translated into French, modified and commercially published, under a purchased domain name.  
 
