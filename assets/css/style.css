@@ -95,6 +95,12 @@ h3.title {
     padding-top: 1em;
 }
 
+#main-cta {
+    padding: 14px 30px;
+    font-size: larger;
+    border-radius: 10px;
+}
+
 
 /* _____ HEADER _____ */
 
@@ -697,6 +703,9 @@ form {
     }
     h6.title {
         padding-top: 0.8em;
+    }
+    #main-cta {
+        padding: 10px 25px;
     }
 }
 
