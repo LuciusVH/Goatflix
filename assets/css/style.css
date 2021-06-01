@@ -624,9 +624,6 @@ form {
     .pola-container {
         flex-direction: row;
     }
-    .pola-right {
-        order: 2;
-    }
     .customer-card {
         padding: 0 1em;
     }
@@ -634,17 +631,20 @@ form {
         width: 100%;
         border-bottom-width: 2px;
     }
-}
-
-@media (max-width: 768px) {
+    .goat-description {
+        text-align: center;
+    }
+    .goat-card {
+        margin-bottom: 0vh;
+    }
     .customer-picture {
         height: 8em;
     }
+}
+
+@media (max-width: 768px) {
     .modal-dialog {
         max-width: 85%;
-    }
-    .goat-description {
-        text-align: center;
     }
 }
 
@@ -686,14 +686,14 @@ form {
     .modal-footer {
         justify-content: space-between;
     }
-    .famous-goat-title {
+    .famous-goats-text {
         text-align: center;
+    }
+    .text-end {
+        text-align: center!important;
     }
     .famous-goats-container img {
         width: 60%;
-    }
-    .text-end {
-        text-align: left!important;
     }
     #general-info img {
         max-width: 85%;
