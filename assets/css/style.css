@@ -707,6 +707,11 @@ form {
     #main-cta {
         padding: 10px 25px;
     }
+    .polaroid {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
 }
 
 @media (max-height: 450px) {
