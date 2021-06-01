@@ -643,6 +643,9 @@ form {
     .modal-dialog {
         max-width: 85%;
     }
+    .goat-description {
+        text-align: center;
+    }
 }
 
 @media (max-width: 575px) {
