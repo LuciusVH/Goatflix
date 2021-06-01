@@ -319,6 +319,7 @@ header {
 
 .customer-picture {
     height: 10em;
+    border: 0.3em solid #fff;
 }
 
 .blockquote {
@@ -588,9 +589,8 @@ form {
 .img-404 {
     width: 50vw;
     margin: 4vh 0;
-    padding: 10px;
     border-radius: 25%;
-    background-color: white;
+    border: 0.5em solid #fff;
 }
 
 .line1,
