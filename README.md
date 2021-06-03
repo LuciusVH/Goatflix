@@ -283,6 +283,30 @@ I also used my own Huawei P20 to test it.
 
 
 
+#### Tested user stories:
+
+- *As a potential customer, I want to find information on the service (price, how does it work, etc.) and how to book the videocall easily.*
+
+  The services details are quickly explained on the landing page. 
+
+- *As a potential customer, I want to be able to read other customers' reviews before purchasing myself.*
+
+  Some customers' reviews are displayed down the *index.html* page.
+
+- *As an aspiring goat owner, I want to find information about Nigerian dwarf goats.* 
+
+  Plenty info on goats & goats breeding can be found on the *wikigoat.html* page. 
+
+- *As a parent, I want my child to learn about goats in a funny way.* 
+
+  Plenty info on goats & some fun facts can be found on the *wikigoat.html* page.
+
+- *As a coworker, I want to make a joke to my colleagues and have a goat in our next team videocall.* 
+
+  The process to book a videocall is through the contact email, simply by contacting the owner of the farm to settle an e-meeting.
+
+
+
 ## Deployment & cloning
 
 You can find the deployed site [here](https://luciusvh.github.io/goatflix/). 
@@ -356,7 +380,7 @@ For more info and troubleshooting, please check [GitHub documentation](https://d
 
 - The footer social links structure & hover effect are taken from Code Institute's Resume Mini Project, then slightly personalized. 
 
-- The polaroid design is from [Return-true](https://return-true.com/creating-a-polaroid-effect-with-css/).
+  - The polaroid design is from [Return-true](https://return-true.com/creating-a-polaroid-effect-with-css/).
 
 - The Table of Content's link hover effect is taken from [CSS-Portal](https://www.cssportal.com/blog/css-animated-underline-links/) then customized.
 
